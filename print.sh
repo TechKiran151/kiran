@@ -5,4 +5,4 @@ ls
 ls
 echo Hello world
 
-echo -e "\e[34m God u only helped for me \e[0m"
+echo -e "\e[34m God u only helpe for me \e[0m"
