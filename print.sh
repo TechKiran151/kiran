@@ -33,4 +33,4 @@ for Animals in Tiger,Lion,Elephant,Leopard; do
       echo $*
       echo $#
     }
-    Sample
+    Sample Hi abhi
