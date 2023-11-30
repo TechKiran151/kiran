@@ -17,3 +17,9 @@ echo 1- $1
 echo 2- $3
 echo 3- $*
 echo 4- $#
+
+a=1
+if [ "$a" -lt 10 ]; then
+  echo kiran
+  a=a+$a
+fi
