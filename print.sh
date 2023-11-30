@@ -21,5 +21,5 @@ echo 4- $#
 a=1
 if [ "$a" -lt 10 ]; then
   echo kiran
-  a=a+$a
+  a=$(($a+1))
 fi
