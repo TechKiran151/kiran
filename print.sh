@@ -23,3 +23,7 @@ while [ "$a" -lt 10 ]; do
   echo kiran
   a=$(($a+1))
 done
+
+for Animals in Tiger,Lion,Elephant,Leopard; do
+  echo Animals
+  done
