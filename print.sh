@@ -25,5 +25,5 @@ while [ "$a" -lt 10 ]; do
 done
 
 for Animals in Tiger,Lion,Elephant,Leopard; do
-  echo Animals
+  echo $Animals
   done
