@@ -27,3 +27,10 @@ done
 for Animals in Tiger,Lion,Elephant,Leopard; do
   echo $Animals
   done
+
+    Sample() {
+      echo kiran
+      echo $*
+      echo $#
+    }
+    Sample
