@@ -19,7 +19,7 @@ echo 3- $*
 echo 4- $#
 
 a=1
-if [ "$a" -lt 10 ]; then
+while [ "$a" -lt 10 ]; do
   echo kiran
   a=$(($a+1))
-fi
+done
