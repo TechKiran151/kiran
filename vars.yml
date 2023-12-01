@@ -1,11 +1,11 @@
 - name: Demo on variable
   hosts: all
   vars:
-    k= kirangowda
+    var1= kirangowda
   tasks:
     - name: print the variable
       ansible.builtin.debug:
-        msg: " {{ k }}"
+        msg: " {{ var1 }}"
 
  #--------
 - name: Declare variable at task level
@@ -13,11 +13,11 @@
   tasks:
     - name: print var one
       ansible.builtin.debug:
-        msg: " {{ G }]"
+        msg: " {{ var2 }]"
       vars:
-        G= kiru
+        var2= kiru
     - name: print var two
       ansible.built.debug:
-        msg: " {{ G1 }}"
+        msg: " {{ var3 }}"
       vars:
-        G1= Gowda
+        var3= Gowda
