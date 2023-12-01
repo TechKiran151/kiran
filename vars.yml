@@ -1,0 +1,23 @@
+- name: Demo on variable
+  hosts: all
+  vars:
+    k= kirangowda
+  tasks:
+    - name: print the variable
+      ansible.builtin.debug:
+        msg: " {{ k }}"
+
+ #--------
+- name: Declare variable at task level
+  hosts: all
+  tasks:
+    - name: print var one
+      ansible.builtin.debug:
+        msg: " {{ G }]"
+      vars:
+        G= kiru
+    - name: print var two
+      ansible.built.debug:
+        msg: " {{ G1 }}"
+      vars:
+        G1= Gowda
